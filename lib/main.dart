@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:signalvip_appliction/login_page.dart';
 
 void main(List<String> args) {
   runApp(Applications());
@@ -12,7 +13,7 @@ class Applications extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(fontFamily: 'Vazir'),
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body: Center(child: Text('hi'))),
+      home: LoginScreen(),
     );
   }
 }
