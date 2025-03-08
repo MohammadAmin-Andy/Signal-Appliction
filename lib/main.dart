@@ -10,6 +10,7 @@ class Applications extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(fontFamily: 'Vazir'),
       debugShowCheckedModeBanner: false,
       home: Scaffold(body: Center(child: Text('hi'))),
     );
